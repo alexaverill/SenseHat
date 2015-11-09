@@ -66,6 +66,13 @@ while(1==1):
 	if c == curses.KEY_DOWN:
 		if currentOption==1:
 			currentOption -=1
+	if c == ord('q'):
+		curses.nocbreak();
+		screen.keypad(0)
+		curses.echo()
+		curses.endwin()
+		sense.clear()
+		exit()
 	temp=sense.get_temperature()
 	if(currentOption==1):
 		#convert from C to F
