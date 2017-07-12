@@ -15,7 +15,7 @@ p = (255,128,128)
 o = (255,165,0)
 #now use the sense libary we will use the set_pixel to make two blue pixels
 sense.clear()
-smilie = [
+texas = [
 b,b,o,o,b,b,b,b,
 b,b,o,o,b,b,b,b,
 b,b,o,o,o,o,o,o,
@@ -25,4 +25,4 @@ b,b,b,o,o,o,o,b,
 b,b,b,o,o,b,b,b,
 b,b,b,b,o,b,b,b
 	]
-sense.set_pixels(smilie)
+sense.set_pixels(texas)
