@@ -12,7 +12,7 @@ b= (0,0,0) #hold the color black
 w=(255,255,255)
 l= (0,0,255) #holds the color blue
 p = (255,128,128)
-o = (255,165,0)
+o = (233,133,0)
 #now use the sense libary we will use the set_pixel to make two blue pixels
 sense.clear()
 texas = [
