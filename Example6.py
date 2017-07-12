@@ -9,18 +9,18 @@ from sense_hat import SenseHat
 sense = SenseHat()
 #createa  blue variable
 b= (0,0,0) #hold the color black
-g=(0,255,0)
+g=(0,0,0)
 bl= (0,0,255) #holds the color blue
-p = (255,128,128)
+p = bl
 #now use the sense libary we will use the set_pixel to make two blue pixels
 sense.clear()
 smilie = [
 g,g,g,g,g,g,g,g,
-g,g,p,g,p,g,g,g,
 g,g,g,g,g,g,g,g,
-g,p,p,p,p,p,g,g,
+g,g,p,g,g,p,g,g,
 g,g,g,g,g,g,g,g,
-g,g,g,g,g,g,g,g,
+g,p,g,g,g,g,p,g,
+g,g,p,p,p,p,g,g,
 g,g,g,g,g,g,g,g,
 g,g,g,g,g,g,g,g
 	]
